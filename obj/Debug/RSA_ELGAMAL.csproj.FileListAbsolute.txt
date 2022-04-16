@@ -81,3 +81,17 @@ C:\Users\ASUS\Desktop\vigener-rsa-main\obj\Debug\RSA_ELGAMAL.csproj.GenerateReso
 C:\Users\ASUS\Desktop\vigener-rsa-main\obj\Debug\RSA_ELGAMAL.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\Desktop\vigener-rsa-main\obj\Debug\RSA_ELGAMAL.exe
 C:\Users\ASUS\Desktop\vigener-rsa-main\obj\Debug\RSA_ELGAMAL.pdb
+C:\Users\ASUS\Desktop\7Guys_Rsa_Vigener\bin\Debug\RSA_ELGAMAL.exe.config
+C:\Users\ASUS\Desktop\7Guys_Rsa_Vigener\bin\Debug\RSA_ELGAMAL.exe
+C:\Users\ASUS\Desktop\7Guys_Rsa_Vigener\bin\Debug\RSA_ELGAMAL.pdb
+C:\Users\ASUS\Desktop\7Guys_Rsa_Vigener\obj\Debug\RSA_ELGAMAL.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\7Guys_Rsa_Vigener\obj\Debug\DemoRSAElGamal.baml
+C:\Users\ASUS\Desktop\7Guys_Rsa_Vigener\obj\Debug\DemoRSAElGamal.g.cs
+C:\Users\ASUS\Desktop\7Guys_Rsa_Vigener\obj\Debug\App.g.cs
+C:\Users\ASUS\Desktop\7Guys_Rsa_Vigener\obj\Debug\RSA_ELGAMAL_MarkupCompile.cache
+C:\Users\ASUS\Desktop\7Guys_Rsa_Vigener\obj\Debug\RSA_ELGAMAL.g.resources
+C:\Users\ASUS\Desktop\7Guys_Rsa_Vigener\obj\Debug\RSA_ELGAMAL.Properties.Resources.resources
+C:\Users\ASUS\Desktop\7Guys_Rsa_Vigener\obj\Debug\RSA_ELGAMAL.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\7Guys_Rsa_Vigener\obj\Debug\RSA_ELGAMAL.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\7Guys_Rsa_Vigener\obj\Debug\RSA_ELGAMAL.exe
+C:\Users\ASUS\Desktop\7Guys_Rsa_Vigener\obj\Debug\RSA_ELGAMAL.pdb

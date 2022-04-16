@@ -8,20 +8,22 @@
                 <Grid Background="#CCAA00
 " Margin="0,7,9.8,2.4">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="21*"/>
-                        <ColumnDefinition Width="190*"/>
+                        <ColumnDefinition Width="85*"/>
+                        <ColumnDefinition Width="7*"/>
+                        <ColumnDefinition Width="13*"/>
+                        <ColumnDefinition Width="950*"/>
                     </Grid.ColumnDefinitions>
                     <Label Content="Mã hóa" FontWeight="Bold" HorizontalAlignment="Left" Margin="4,15,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.038,0.609"/>
-                    <Label Content="Bản rõ" FontWeight="Bold" HorizontalAlignment="Left" Margin="5,45,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.608,0.458"/>
-                    <TextBox HorizontalAlignment="Left" Height="111" Margin="1,74,0,0" TextWrapping="Wrap" x:Name="txtBanRo" VerticalAlignment="Top" Width="357" Grid.ColumnSpan="2"/>
-                    <Button Name="btMaHoa" Content="Thực hiện mã hóa"  HorizontalAlignment="Left" Margin="338.8,110,0,0" VerticalAlignment="Top" Width="166" Height="27" Click="btMaHoa_Click" Grid.Column="1"/>
-                    <Label Content="Bản rõ được mã hóa:" FontWeight="Bold" HorizontalAlignment="Left" Margin="590.8,37,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-                    <TextBox HorizontalAlignment="Left" Height="118" Margin="577.8,71,-3,0" TextWrapping="Wrap" x:Name="txt_maHoaBanRo" VerticalAlignment="Top" Width="375" Grid.Column="1" />
+                    <Label Content="Bản rõ" FontWeight="Bold" HorizontalAlignment="Left" Margin="16,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.608,0.458"/>
+                    <TextBox HorizontalAlignment="Left" Height="111" Margin="12,76,0,0" TextWrapping="Wrap" x:Name="txtBanRo" VerticalAlignment="Top" Width="374" Grid.ColumnSpan="4"/>
+                    <Button Name="btMaHoa" Content="Thực hiện mã hóa"  HorizontalAlignment="Left" Margin="339.2,110,0,0" VerticalAlignment="Top" Width="166" Height="27" Click="btMaHoa_Click" Grid.Column="3"/>
+                    <Label Content="Bản rõ được mã hóa:" FontWeight="Bold" HorizontalAlignment="Left" Margin="589.2,44,0,0" VerticalAlignment="Top" Grid.Column="3"/>
+                    <TextBox HorizontalAlignment="Left" Height="111" Margin="563.2,76,0,0" TextWrapping="Wrap" x:Name="txt_maHoaBanRo" VerticalAlignment="Top" Width="375" Grid.Column="3" />
 
 
 
-                    <Label Content="key  " FontWeight="Bold" HorizontalAlignment="Left" Margin="436.8,169,0,0" VerticalAlignment="Top" RenderTransformOrigin="7.262,0.589" Width="41" Grid.Column="1"/>
-                    <TextBox  HorizontalAlignment="Left" Height="52" Margin="298.8,201,0,0" TextWrapping="Wrap" x:Name="So_K" VerticalAlignment="Top" Width="297" Grid.Column="1"/>
+                    <Label Content="key  " FontWeight="Bold" HorizontalAlignment="Left" Margin="399.2,182,0,0" VerticalAlignment="Top" RenderTransformOrigin="7.262,0.589" Width="41" Grid.Column="3"/>
+                    <TextBox  HorizontalAlignment="Left" Height="52" Margin="308.2,222,0,0" TextWrapping="Wrap" x:Name="So_K" VerticalAlignment="Top" Width="231" Grid.Column="3"/>
 
 
 
@@ -34,12 +36,12 @@
 
 
                     <Label Content="Giải mã" FontWeight="Bold" HorizontalAlignment="Left" Margin="4,236,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.303,1.063"/>
-                    <Label Content="Bản mã hóa nhận được:" FontWeight="Bold" HorizontalAlignment="Left" Margin="1,273,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-                    <TextBox HorizontalAlignment="Left" Height="89" Margin="-2,309,0,0" TextWrapping="Wrap" x:Name="txt_banMaHoaNhanDuoc" VerticalAlignment="Top" Width="351" Grid.ColumnSpan="2"/>
-                    <Button Name="btGiaiMa" Content="Thực hiện giải mã" HorizontalAlignment="Left" Margin="338.8,321,0,0" VerticalAlignment="Top" Width="161" Height="27" Click="btGiaiMa_Click" Grid.Column="1"/>
-                    <Label Content="Giải mã bản mã hóa nhận được bản rõ" FontWeight="Bold" HorizontalAlignment="Left" Margin="608.8,262,0,0" VerticalAlignment="Top" Width="225" Grid.Column="1"/>
-                    <TextBox HorizontalAlignment="Left" Height="104" Margin="582.8,293,-15,0" TextWrapping="Wrap" x:Name="txt_banGiaima" VerticalAlignment="Top" Width="382" Grid.Column="1" />
-                    <Button Name="btThoat" Content="X" FontWeight="Bold" HorizontalAlignment="Left" Margin="908.2,6,0,0" VerticalAlignment="Top" Width="28" Click="btThoat_Click" RenderTransformOrigin="1.027,1.437" Grid.Column="1"/>
+                    <Label Content="Bản mã hóa nhận được:" FontWeight="Bold" HorizontalAlignment="Left" Margin="14,275,0,0" VerticalAlignment="Top" Grid.ColumnSpan="4"/>
+                    <TextBox HorizontalAlignment="Left" Height="104" Margin="12,308,0,0" TextWrapping="Wrap" x:Name="txt_banMaHoaNhanDuoc" VerticalAlignment="Top" Width="374" Grid.ColumnSpan="4"/>
+                    <Button Name="btGiaiMa" Content="Thực hiện giải mã" HorizontalAlignment="Left" Margin="336.2,340,0,0" VerticalAlignment="Top" Width="161" Height="27" Click="btGiaiMa_Click" Grid.Column="3"/>
+                    <Label Content="Giải mã bản mã hóa nhận được bản rõ" FontWeight="Bold" HorizontalAlignment="Left" Margin="585.2,274,0,0" VerticalAlignment="Top" Width="225" Grid.Column="3"/>
+                    <TextBox HorizontalAlignment="Left" Height="104" Margin="555.2,310,0,0" TextWrapping="Wrap" x:Name="txt_banGiaima" VerticalAlignment="Top" Width="382" Grid.Column="3" />
+                    <Button Name="btThoat" Content="X" FontWeight="Bold" HorizontalAlignment="Left" Margin="908.2,6,0,0" VerticalAlignment="Top" Width="28" Click="btThoat_Click" RenderTransformOrigin="1.027,1.437" Grid.Column="3"/>
 
                 </Grid>
             </TabItem>
